@@ -1,0 +1,72 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "1000",
+  "zenMode.centerLayout": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "files.exclude": {
+    "**/.git": false
+  },
+  "explorer.confirmDelete": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 1.5,
+  "svg.preview.mode": "svg",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "svelte.enable-ts-plugin": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "python.defaultInterpreterPath": "D:\\Programming\\Python\\Python3_8\\python.exe",
+  "python.analysis.typeCheckingMode": "strict",
+  "python.analysis.useLibraryCodeForTypes": true,
+  "python.testing.cwd": "tests",
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.experimental.showMoves": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "workbench.editor.customLabels.enabled": true,
+  "search.useIgnoreFiles": false,
+  "python.createEnvironment.trigger": "off",
+  "todo-tree.highlights.customHighlight": {
+    "[ ]": {
+      "icon": "issue-opened",
+      "iconColour": "#DD0"
+    },
+    "[x]": {
+      "icon": "issue-closed",
+      "iconColour": "#0F0"
+    }
+  },
+  "todo-tree.filtering.excludeGlobs": ["**/node_modules/*/**", "**/.venv/*/**"],
+  "git.autofetch": true,
+  "explorer.confirmDragAndDrop": false,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.alwaysShowEditorActions": true,
+  "diffEditor.renderSideBySide": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.customTitleBarVisibility": "windowed",
+  "remote.SSH.remotePlatform": {
+    "192.168.31.173": "linux"
+  }
+}

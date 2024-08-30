@@ -1,0 +1,10 @@
+{
+	"Class constructor": {
+		"prefix": "constructor",
+		"body": [
+			"constructor($1) {",
+			"\t$0",
+			"}"
+		]
+	}
+}

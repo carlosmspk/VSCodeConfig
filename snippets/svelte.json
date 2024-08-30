@@ -1,0 +1,20 @@
+{
+	"Create TS Svelte Component": {
+		"prefix": "svelteinit",
+		"body": [
+			"<script lang=\"ts\">",
+			"\t$0"
+			"</script>",
+			""
+			"<div class=\"example\">EXAMPLE</div>",
+			""
+			"<style>",
+			"	.example {",
+			"		color: red;",
+			"	}",
+			"</style>",
+			"",
+		],
+		"description": "Log output to console"
+	}
+}

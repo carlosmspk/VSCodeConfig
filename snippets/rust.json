@@ -1,0 +1,36 @@
+{
+	"Impl block with constructor template": {
+		"prefix": "impl",
+		"body": [
+			"impl ${1:YourStruct} {"
+			"\tpub fn new() -> Self {",
+			"\t\t    ${0:Self {  \\}}",
+			"\t}",
+			"}"
+		],
+		"description": "Creates a template for an impl block with a basic struct constructor."
+	},
+	"Template for test module": {
+		"prefix": "mod_test",
+		"body": [
+			"#[cfg(test)]",
+			"mod tests {",
+			"\t#[test]",
+			"\tfn test() {",
+			"\t\t$0",
+			"\t}",
+			"}"
+		],
+		"description": "Creates a template for a test module with an empty test function."
+	},
+	"Template for test function": {
+		"prefix": "fn_test",
+		"body": [
+			"#[test]",
+			"fn ${1:test_function}() {",
+			"\t$0",
+			"}"
+		],
+		"description": "Creates a template for a test function."
+	}
+}

@@ -1,0 +1,19 @@
+[
+  // The two shortcuts below run whatever task is defined in tasks.json named
+  // "Run Main App" and "Run Tests", respectively. These shortcuts don't do
+  // anything on their own
+  {
+    "key": "ctrl+shift+a",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Run Main App"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Run Tests"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "workbench.view.extension.codium-sidebar-view-container"
+  }
+]
